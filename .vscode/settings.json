@@ -1,0 +1,16 @@
+{
+  "clangd.path": "/home/esp32/.espressif/tools/esp-clang/esp-21.1.3_20260408/esp-clang/bin/clangd",
+  "clangd.arguments": [
+    "--background-index",
+    "--query-driver=**",
+    "--compile-commands-dir=${workspaceFolder}/build"
+  ],
+  "idf.currentSetup": "/home/esp32/esp/esp-idf",
+  "idf.openOcdConfigs": [
+    "board/esp32-wrover-kit-3.3v.cfg"
+  ],
+  "idf.customExtraVars": {
+    "IDF_TARGET": "esp32"
+  }
+}
+

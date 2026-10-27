@@ -1,0 +1,5 @@
+FROM ghcr.io/tamba91/esp-idf-v6_1-devcontainer:latest
+
+WORKDIR /home/esp32/esp/esp-idf
+
+RUN python3 tools/idf_tools.py install esp-clang
