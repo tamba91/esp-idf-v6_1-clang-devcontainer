@@ -1,5 +1,7 @@
 CompileFlags:
     Remove: [-f*, -m*]
+    Add: ["-resource-dir=/home/esp32/.espressif/tools/esp-clang/esp-21.1.3_20260408/esp-clang/lib/clang/21"]
 
 Diagnostics:
   UnusedIncludes: None
+
